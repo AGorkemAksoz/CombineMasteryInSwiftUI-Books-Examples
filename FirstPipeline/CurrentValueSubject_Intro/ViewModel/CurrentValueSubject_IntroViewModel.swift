@@ -9,14 +9,15 @@ import Combine
 import Foundation
 
 class CurrentValueSubject_IntroViewModel: ObservableObject {
-    var selection = CurrentValueSubject<String, Never>("No Name Selected")
+    @Published var selection = "No Name Selected"
+//    var selection = CurrentValueSubject<String, Never>("No Name Selected")
     var selectionSame = CurrentValueSubject<Bool, Never>(false)
     var cancellables = [AnyCancellable]()
     
     init() {
-        selection
+        $selection
             .map { [unowned self] newValue -> Bool in
-                if newValue == selection.value {
+                if newValue == selection{
                     return true
                 } else {
                     return false

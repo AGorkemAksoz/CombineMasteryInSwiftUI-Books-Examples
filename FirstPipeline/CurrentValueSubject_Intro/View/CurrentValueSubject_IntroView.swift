@@ -17,14 +17,14 @@ struct CurrentValueSubject_IntroView: View {
                        desc: "The CurrentSubjectValue publisher will publish its existing value and also new values when it gets them.")
             
             Button("Select Lorenzo") {
-                vm.selection.value = "Lorenzo"
+                vm.selection = "Lorenzo"
             }
             
             Button("Select Ellen") {
-                vm.selection.value = "Ellen"
+                vm.selection = "Ellen"
             }
             
-            Text(vm.selection.value)
+            Text(vm.selection)
                 .foregroundColor(vm.selectionSame.value ? .red : .green)
         }
         .font(.title)
