@@ -17,7 +17,8 @@ struct FirstPipelineApp: App {
 //            Published_IntroductionView()
 //            CurrentValueSubject_IntroView()
 //            EmptyView()
-            FailView()
+//            FailView()
+            FutureView()
         }
     }
 }
