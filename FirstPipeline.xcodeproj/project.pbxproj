@@ -24,6 +24,10 @@
 		DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59F9512A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyView.swift */; };
+		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
+		DED0BA972A80E65D000F9149 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA962A80E65D000F9149 /* Validators.swift */; };
+		DED0BA992A80E6D7000F9149 /* FailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA982A80E6D7000F9149 /* FailViewModel.swift */; };
+		DED0BA9B2A80E750000F9149 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA9A2A80E750000F9149 /* FailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		DD59F9512A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject_IntroView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
+		DED0BA962A80E65D000F9149 /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		DED0BA982A80E6D7000F9149 /* FailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailViewModel.swift; sourceTree = "<group>"; };
+		DED0BA9A2A80E750000F9149 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DED0BA902A80E5FF000F9149 /* Fail */,
 				DED0BA882A80DDC6000F9149 /* Empty */,
 				DD59F94C2A79A2600047E2CE /* CurrentValueSubject_Intro */,
 				DD59F9422A799A950047E2CE /* Published_Introduction */,
@@ -266,6 +275,41 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DED0BA902A80E5FF000F9149 /* Fail */ = {
+			isa = PBXGroup;
+			children = (
+				DED0BA932A80E60E000F9149 /* ViewModel */,
+				DED0BA922A80E607000F9149 /* View */,
+				DED0BA912A80E603000F9149 /* Helpers */,
+			);
+			path = Fail;
+			sourceTree = "<group>";
+		};
+		DED0BA912A80E603000F9149 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DED0BA942A80E625000F9149 /* InvalidAgeError.swift */,
+				DED0BA962A80E65D000F9149 /* Validators.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DED0BA922A80E607000F9149 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DED0BA9A2A80E750000F9149 /* FailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DED0BA932A80E60E000F9149 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DED0BA982A80E6D7000F9149 /* FailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,6 +382,8 @@
 			files = (
 				DD59F9482A799AB50047E2CE /* Published_IntroductionView.swift in Sources */,
 				DED0BA8F2A80DF27000F9149 /* EmptyView.swift in Sources */,
+				DED0BA9B2A80E750000F9149 /* FailView.swift in Sources */,
+				DED0BA992A80E6D7000F9149 /* FailViewModel.swift in Sources */,
 				DD59F93A2A78453D0047E2CE /* LongRunnningViewModel.swift in Sources */,
 				DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */,
 				DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */,
@@ -345,11 +391,13 @@
 				DD59F9272A7577C70047E2CE /* HeaderView.swift in Sources */,
 				DD59F93F2A7850140047E2CE /* CancellingMulitPipeViewModel.swift in Sources */,
 				DD59F92B2A75796B0047E2CE /* FirstPipelineViewModel.swift in Sources */,
+				DED0BA972A80E65D000F9149 /* Validators.swift in Sources */,
 				DD59F9502A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift in Sources */,
 				DD59F94B2A799AC50047E2CE /* Published_IntroductionViewModel.swift in Sources */,
 				DD59F9362A7845230047E2CE /* LongRunningView.swift in Sources */,
 				DD59F92E2A7670BF0047E2CE /* FirstPipelineView.swift in Sources */,
 				DD59F9192A75778A0047E2CE /* FirstPipelineApp.swift in Sources */,
+				DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */,
 				DD59F9292A7578A80047E2CE /* DescView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

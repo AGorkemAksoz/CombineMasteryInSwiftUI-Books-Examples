@@ -16,7 +16,8 @@ struct FirstPipelineApp: App {
 //            CancellingMulitPipeView()
 //            Published_IntroductionView()
 //            CurrentValueSubject_IntroView()
-            EmptyView()
+//            EmptyView()
+            FailView()
         }
     }
 }

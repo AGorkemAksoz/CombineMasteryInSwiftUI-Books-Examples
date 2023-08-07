@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+enum InvalidAgeError: String, Error, Identifiable {
+    var id: UUID {
+        get {
+        return UUID()
+    }
+        set {
+            
+        }
+    }
+    
+    
+case lessThanZero
+case moreThanOneHundred
+}
