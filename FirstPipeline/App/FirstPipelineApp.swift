@@ -18,7 +18,9 @@ struct FirstPipelineApp: App {
 //            CurrentValueSubject_IntroView()
 //            EmptyView()
 //            FailView()
-            FutureView()
+//            FutureView()
+//            Future_OnlyRunsOnceView()
+            Future_RunMultipleTimesView()
         }
     }
 }
