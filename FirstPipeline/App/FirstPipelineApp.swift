@@ -20,7 +20,8 @@ struct FirstPipelineApp: App {
 //            FailView()
 //            FutureView()
 //            Future_OnlyRunsOnceView()
-            Future_RunMultipleTimesView()
+//            Future_RunMultipleTimesView()
+            JustView()
         }
     }
 }
