@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EmptyView: View {
+struct EmptyIntroductionView: View {
     @StateObject private var vm = EmptyViewModel()
     var body: some View {
         VStack(spacing: 20) {
@@ -30,6 +30,6 @@ struct EmptyView: View {
 
 struct EmptyView_Previews: PreviewProvider {
     static var previews: some View {
-        EmptyView()
+        EmptyIntroductionView()
     }
 }
