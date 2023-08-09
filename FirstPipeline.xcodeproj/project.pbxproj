@@ -30,6 +30,10 @@
 		DE95DA992A822A6500691C6B /* PassthroughSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DA982A822A6500691C6B /* PassthroughSubjectView.swift */; };
 		DE95DA9E2A83793600691C6B /* SequenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DA9D2A83793600691C6B /* SequenceViewModel.swift */; };
 		DE95DAA22A837A4B00691C6B /* SequnceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAA12A837A4B00691C6B /* SequnceView.swift */; };
+		DE95DAA72A837BD400691C6B /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAA62A837BD400691C6B /* TimerViewModel.swift */; };
+		DE95DAA92A837CEA00691C6B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAA82A837CEA00691C6B /* TimerView.swift */; };
+		DE95DAAC2A8381C600691C6B /* TimerConnectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAAB2A8381C600691C6B /* TimerConnectViewModel.swift */; };
+		DE95DAAE2A8382A300691C6B /* TimerConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAAD2A8382A300691C6B /* TimerConnectView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -69,6 +73,10 @@
 		DE95DA982A822A6500691C6B /* PassthroughSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectView.swift; sourceTree = "<group>"; };
 		DE95DA9D2A83793600691C6B /* SequenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceViewModel.swift; sourceTree = "<group>"; };
 		DE95DAA12A837A4B00691C6B /* SequnceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequnceView.swift; sourceTree = "<group>"; };
+		DE95DAA62A837BD400691C6B /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		DE95DAA82A837CEA00691C6B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		DE95DAAB2A8381C600691C6B /* TimerConnectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConnectViewModel.swift; sourceTree = "<group>"; };
+		DE95DAAD2A8382A300691C6B /* TimerConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConnectView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -113,6 +121,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DAA32A837BBB00691C6B /* Timer */,
 				DE95DA9A2A83791600691C6B /* Sequence */,
 				DE95DA932A8228D900691C6B /* PassthroughSubject */,
 				DE95DA8C2A8224D300691C6B /* Just */,
@@ -357,6 +366,33 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DE95DAA32A837BBB00691C6B /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAA52A837BC300691C6B /* ViewMoel */,
+				DE95DAA42A837BC100691C6B /* View */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		DE95DAA42A837BC100691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAA82A837CEA00691C6B /* TimerView.swift */,
+				DE95DAAD2A8382A300691C6B /* TimerConnectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE95DAA52A837BC300691C6B /* ViewMoel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAA62A837BD400691C6B /* TimerViewModel.swift */,
+				DE95DAAB2A8381C600691C6B /* TimerConnectViewModel.swift */,
+			);
+			path = ViewMoel;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,6 +554,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE95DAA92A837CEA00691C6B /* TimerView.swift in Sources */,
 				DD59F9482A799AB50047E2CE /* Published_IntroductionView.swift in Sources */,
 				DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */,
 				DED0BA9B2A80E750000F9149 /* FailView.swift in Sources */,
@@ -529,7 +566,10 @@
 				DED0BAA62A813498000F9149 /* Future_ImmediateView.swift in Sources */,
 				DE95DA992A822A6500691C6B /* PassthroughSubjectView.swift in Sources */,
 				DD59F9412A7851920047E2CE /* CancellingMulitPipeView.swift in Sources */,
+				DE95DAAE2A8382A300691C6B /* TimerConnectView.swift in Sources */,
 				DD59F9272A7577C70047E2CE /* HeaderView.swift in Sources */,
+				DE95DAAC2A8381C600691C6B /* TimerConnectViewModel.swift in Sources */,
+				DE95DAA72A837BD400691C6B /* TimerViewModel.swift in Sources */,
 				DD59F93F2A7850140047E2CE /* CancellingMulitPipeViewModel.swift in Sources */,
 				DD59F92B2A75796B0047E2CE /* FirstPipelineViewModel.swift in Sources */,
 				DED0BAAB2A8220AD000F9149 /* Future_OnlyRunsOnceView.swift in Sources */,
