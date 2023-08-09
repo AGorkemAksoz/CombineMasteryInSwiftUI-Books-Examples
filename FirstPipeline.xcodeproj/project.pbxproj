@@ -34,6 +34,10 @@
 		DE95DAA92A837CEA00691C6B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAA82A837CEA00691C6B /* TimerView.swift */; };
 		DE95DAAC2A8381C600691C6B /* TimerConnectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAAB2A8381C600691C6B /* TimerConnectViewModel.swift */; };
 		DE95DAAE2A8382A300691C6B /* TimerConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAAD2A8382A300691C6B /* TimerConnectView.swift */; };
+		DE95DAB32A83A2F300691C6B /* DataTaskPublisherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAB22A83A2F300691C6B /* DataTaskPublisherViewModel.swift */; };
+		DE95DAB62A83A32500691C6B /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAB52A83A32500691C6B /* CatFact.swift */; };
+		DE95DAB82A83A3F800691C6B /* DataTaskPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAB72A83A3F800691C6B /* DataTaskPublisherView.swift */; };
+		DE95DABA2A83CAFB00691C6B /* ErrorForAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAB92A83CAFB00691C6B /* ErrorForAlert.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -77,6 +81,10 @@
 		DE95DAA82A837CEA00691C6B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		DE95DAAB2A8381C600691C6B /* TimerConnectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConnectViewModel.swift; sourceTree = "<group>"; };
 		DE95DAAD2A8382A300691C6B /* TimerConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConnectView.swift; sourceTree = "<group>"; };
+		DE95DAB22A83A2F300691C6B /* DataTaskPublisherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherViewModel.swift; sourceTree = "<group>"; };
+		DE95DAB52A83A32500691C6B /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		DE95DAB72A83A3F800691C6B /* DataTaskPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherView.swift; sourceTree = "<group>"; };
+		DE95DAB92A83CAFB00691C6B /* ErrorForAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorForAlert.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DAAF2A83A2CF00691C6B /* DataTaskPublisher */,
 				DE95DAA32A837BBB00691C6B /* Timer */,
 				DE95DA9A2A83791600691C6B /* Sequence */,
 				DE95DA932A8228D900691C6B /* PassthroughSubject */,
@@ -393,6 +402,41 @@
 			path = ViewMoel;
 			sourceTree = "<group>";
 		};
+		DE95DAAF2A83A2CF00691C6B /* DataTaskPublisher */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAB42A83A31A00691C6B /* Model */,
+				DE95DAB12A83A2DD00691C6B /* ViewModel */,
+				DE95DAB02A83A2D800691C6B /* View */,
+			);
+			path = DataTaskPublisher;
+			sourceTree = "<group>";
+		};
+		DE95DAB02A83A2D800691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAB72A83A3F800691C6B /* DataTaskPublisherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE95DAB12A83A2DD00691C6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAB22A83A2F300691C6B /* DataTaskPublisherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE95DAB42A83A31A00691C6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAB52A83A32500691C6B /* CatFact.swift */,
+				DE95DAB92A83CAFB00691C6B /* ErrorForAlert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -560,6 +604,7 @@
 				DED0BA9B2A80E750000F9149 /* FailView.swift in Sources */,
 				DED0BA992A80E6D7000F9149 /* FailViewModel.swift in Sources */,
 				DD59F93A2A78453D0047E2CE /* LongRunnningViewModel.swift in Sources */,
+				DE95DAB32A83A2F300691C6B /* DataTaskPublisherViewModel.swift in Sources */,
 				DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */,
 				DE95DA922A82270600691C6B /* JustView.swift in Sources */,
 				DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */,
@@ -573,9 +618,11 @@
 				DD59F93F2A7850140047E2CE /* CancellingMulitPipeViewModel.swift in Sources */,
 				DD59F92B2A75796B0047E2CE /* FirstPipelineViewModel.swift in Sources */,
 				DED0BAAB2A8220AD000F9149 /* Future_OnlyRunsOnceView.swift in Sources */,
+				DE95DAB62A83A32500691C6B /* CatFact.swift in Sources */,
 				DED0BA972A80E65D000F9149 /* Validators.swift in Sources */,
 				DD59F9502A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift in Sources */,
 				DD59F94B2A799AC50047E2CE /* Published_IntroductionViewModel.swift in Sources */,
+				DE95DABA2A83CAFB00691C6B /* ErrorForAlert.swift in Sources */,
 				DD59F9362A7845230047E2CE /* LongRunningView.swift in Sources */,
 				DE95DA8B2A82229900691C6B /* Future_RunMultipleTimesView.swift in Sources */,
 				DD59F92E2A7670BF0047E2CE /* FirstPipelineView.swift in Sources */,
@@ -588,6 +635,7 @@
 				DE95DA902A8224EF00691C6B /* JustViewModel.swift in Sources */,
 				DE95DAA22A837A4B00691C6B /* SequnceView.swift in Sources */,
 				DE95DA972A82290300691C6B /* PassthroughSubjectViewModel.swift in Sources */,
+				DE95DAB82A83A3F800691C6B /* DataTaskPublisherView.swift in Sources */,
 				DD59F9292A7578A80047E2CE /* DescView.swift in Sources */,
 				DE95DA892A8221DB00691C6B /* Future_RunMultipleTimesViewModel.swift in Sources */,
 				DED0BAA02A813154000F9149 /* FutureViewModel.swift in Sources */,

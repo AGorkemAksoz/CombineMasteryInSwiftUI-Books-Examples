@@ -24,7 +24,8 @@ struct FirstPipelineApp: App {
 //            JustView()
 //            PassthroughSubjectView()
 //            SequnceView()
-            TimerView()
+//            TimerView()
+            DataTaskPublisherView()
         }
     }
 }
