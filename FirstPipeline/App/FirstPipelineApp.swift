@@ -22,7 +22,8 @@ struct FirstPipelineApp: App {
 //            Future_OnlyRunsOnceView()
 //            Future_RunMultipleTimesView()
 //            JustView()
-            PassthroughSubjectView()
+//            PassthroughSubjectView()
+            SequnceView()
         }
     }
 }
