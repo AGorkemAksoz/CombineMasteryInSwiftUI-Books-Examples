@@ -40,6 +40,8 @@
 		DE95DABA2A83CAFB00691C6B /* ErrorForAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAB92A83CAFB00691C6B /* ErrorForAlert.swift */; };
 		DE95DABF2A83CE8400691C6B /* DataTaskPublisherImgViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DABE2A83CE8400691C6B /* DataTaskPublisherImgViewModel.swift */; };
 		DE95DAC12A83D03700691C6B /* DataTaskPublisherImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAC02A83D03700691C6B /* DataTaskPublisherImgView.swift */; };
+		DE95DAD02A8517AD00691C6B /* AllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DACF2A8517AD00691C6B /* AllSatisfyViewModel.swift */; };
+		DE95DAD22A85187900691C6B /* AllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAD12A85187900691C6B /* AllSatisfyView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -89,6 +91,8 @@
 		DE95DAB92A83CAFB00691C6B /* ErrorForAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorForAlert.swift; sourceTree = "<group>"; };
 		DE95DABE2A83CE8400691C6B /* DataTaskPublisherImgViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherImgViewModel.swift; sourceTree = "<group>"; };
 		DE95DAC02A83D03700691C6B /* DataTaskPublisherImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisherImgView.swift; sourceTree = "<group>"; };
+		DE95DACF2A8517AD00691C6B /* AllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyViewModel.swift; sourceTree = "<group>"; };
+		DE95DAD12A85187900691C6B /* AllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfyView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DACC2A85177600691C6B /* AllSatisfy */,
 				DE95DABB2A83CE5200691C6B /* DataTaskPublisherImg */,
 				DE95DAAF2A83A2CF00691C6B /* DataTaskPublisher */,
 				DE95DAA32A837BBB00691C6B /* Timer */,
@@ -467,6 +472,31 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DE95DACC2A85177600691C6B /* AllSatisfy */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DACE2A85177F00691C6B /* ViewModel */,
+				DE95DACD2A85177D00691C6B /* View */,
+			);
+			path = AllSatisfy;
+			sourceTree = "<group>";
+		};
+		DE95DACD2A85177D00691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAD12A85187900691C6B /* AllSatisfyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE95DACE2A85177F00691C6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DACF2A8517AD00691C6B /* AllSatisfyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -632,6 +662,7 @@
 				DD59F9482A799AB50047E2CE /* Published_IntroductionView.swift in Sources */,
 				DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */,
 				DED0BA9B2A80E750000F9149 /* FailView.swift in Sources */,
+				DE95DAD22A85187900691C6B /* AllSatisfyView.swift in Sources */,
 				DED0BA992A80E6D7000F9149 /* FailViewModel.swift in Sources */,
 				DD59F93A2A78453D0047E2CE /* LongRunnningViewModel.swift in Sources */,
 				DE95DAB32A83A2F300691C6B /* DataTaskPublisherViewModel.swift in Sources */,
@@ -668,6 +699,7 @@
 				DE95DAA22A837A4B00691C6B /* SequnceView.swift in Sources */,
 				DE95DA972A82290300691C6B /* PassthroughSubjectViewModel.swift in Sources */,
 				DE95DAB82A83A3F800691C6B /* DataTaskPublisherView.swift in Sources */,
+				DE95DAD02A8517AD00691C6B /* AllSatisfyViewModel.swift in Sources */,
 				DD59F9292A7578A80047E2CE /* DescView.swift in Sources */,
 				DE95DA892A8221DB00691C6B /* Future_RunMultipleTimesViewModel.swift in Sources */,
 				DED0BAA02A813154000F9149 /* FutureViewModel.swift in Sources */,
