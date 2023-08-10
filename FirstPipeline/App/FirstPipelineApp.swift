@@ -27,7 +27,8 @@ struct FirstPipelineApp: App {
 //            TimerView()
 //            DataTaskPublisherView()
 //            DataTaskPublisherImgView()
-            AllSatisfyView()
+//            AllSatisfyView()
+            TryAllSatisfyView()
         }
     }
 }
