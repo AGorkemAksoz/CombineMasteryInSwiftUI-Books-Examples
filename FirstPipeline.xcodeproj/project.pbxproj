@@ -56,6 +56,8 @@
 		DE95DAFD2A86714A00691C6B /* CountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAFC2A86714A00691C6B /* CountViewModel.swift */; };
 		DE95DAFF2A8671FF00691C6B /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAFE2A8671FF00691C6B /* CountView.swift */; };
 		DE95DB022A8672C100691C6B /* CountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB012A8672C100691C6B /* CountDetailView.swift */; };
+		DE95DB072A8680FB00691C6B /* MaxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB062A8680FB00691C6B /* MaxViewModel.swift */; };
+		DE95DB092A8681A300691C6B /* MaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB082A8681A300691C6B /* MaxView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -121,6 +123,8 @@
 		DE95DAFC2A86714A00691C6B /* CountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewModel.swift; sourceTree = "<group>"; };
 		DE95DAFE2A8671FF00691C6B /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		DE95DB012A8672C100691C6B /* CountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDetailView.swift; sourceTree = "<group>"; };
+		DE95DB062A8680FB00691C6B /* MaxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxViewModel.swift; sourceTree = "<group>"; };
+		DE95DB082A8681A300691C6B /* MaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DB032A8680E000691C6B /* Max */,
 				DE95DAF92A86712F00691C6B /* Count */,
 				DE95DAEF2A864EBE00691C6B /* TryContainsWhere */,
 				DE95DAE42A864C4300691C6B /* ContainsWhere */,
@@ -683,6 +688,31 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DE95DB032A8680E000691C6B /* Max */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DB052A8680E700691C6B /* ViewModel */,
+				DE95DB042A8680E500691C6B /* View */,
+			);
+			path = Max;
+			sourceTree = "<group>";
+		};
+		DE95DB042A8680E500691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DB082A8681A300691C6B /* MaxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE95DB052A8680E700691C6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DB062A8680FB00691C6B /* MaxViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -855,6 +885,7 @@
 				DE95DADC2A852E6600691C6B /* TryAllSatisfyView.swift in Sources */,
 				DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */,
 				DE95DA922A82270600691C6B /* JustView.swift in Sources */,
+				DE95DB092A8681A300691C6B /* MaxView.swift in Sources */,
 				DE95DAF62A864F6300691C6B /* TryContainsWhereViewModel.swift in Sources */,
 				DE95DAFF2A8671FF00691C6B /* CountView.swift in Sources */,
 				DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */,
@@ -887,6 +918,7 @@
 				DE95DA8B2A82229900691C6B /* Future_RunMultipleTimesView.swift in Sources */,
 				DD59F92E2A7670BF0047E2CE /* FirstPipelineView.swift in Sources */,
 				DD59F9192A75778A0047E2CE /* FirstPipelineApp.swift in Sources */,
+				DE95DB072A8680FB00691C6B /* MaxViewModel.swift in Sources */,
 				DED0BAA92A821FE5000F9149 /* Future_OnlyRunsOnceViewModel.swift in Sources */,
 				DE95DA9E2A83793600691C6B /* SequenceViewModel.swift in Sources */,
 				DED0BAA42A81342D000F9149 /* Future_ImmediateViewModel.swift in Sources */,
