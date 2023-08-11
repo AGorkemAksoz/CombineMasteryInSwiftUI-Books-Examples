@@ -30,7 +30,8 @@ struct FirstPipelineApp: App {
 //            AllSatisfyView()
 //            TryAllSatisfyView()
 //            ContainsView()
-            ContainsWhereView()
+//            ContainsWhereView()
+            TryContainsWhereView()
         }
     }
 }

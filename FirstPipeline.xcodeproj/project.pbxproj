@@ -50,6 +50,9 @@
 		DE95DAE92A864C6C00691C6B /* ContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAE82A864C6C00691C6B /* ContainsWhereViewModel.swift */; };
 		DE95DAEC2A864CDF00691C6B /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAEB2A864CDF00691C6B /* Fruit.swift */; };
 		DE95DAEE2A864DD500691C6B /* ContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAED2A864DD500691C6B /* ContainsWhereView.swift */; };
+		DE95DAF42A864F2700691C6B /* InvalidSelectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAF32A864F2700691C6B /* InvalidSelectionError.swift */; };
+		DE95DAF62A864F6300691C6B /* TryContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAF52A864F6300691C6B /* TryContainsWhereViewModel.swift */; };
+		DE95DAF82A86505A00691C6B /* TryContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAF72A86505A00691C6B /* TryContainsWhereView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -109,6 +112,9 @@
 		DE95DAE82A864C6C00691C6B /* ContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereViewModel.swift; sourceTree = "<group>"; };
 		DE95DAEB2A864CDF00691C6B /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 		DE95DAED2A864DD500691C6B /* ContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsWhereView.swift; sourceTree = "<group>"; };
+		DE95DAF32A864F2700691C6B /* InvalidSelectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidSelectionError.swift; sourceTree = "<group>"; };
+		DE95DAF52A864F6300691C6B /* TryContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryContainsWhereViewModel.swift; sourceTree = "<group>"; };
+		DE95DAF72A86505A00691C6B /* TryContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryContainsWhereView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DAEF2A864EBE00691C6B /* TryContainsWhere */,
 				DE95DAE42A864C4300691C6B /* ContainsWhere */,
 				DE95DADD2A86150100691C6B /* Contains */,
 				DE95DAD32A852BAE00691C6B /* TryAllSatisfy */,
@@ -609,6 +616,40 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		DE95DAEF2A864EBE00691C6B /* TryContainsWhere */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAF22A864F1200691C6B /* Helpers */,
+				DE95DAF12A864ED900691C6B /* ViewModel */,
+				DE95DAF02A864ED200691C6B /* View */,
+			);
+			path = TryContainsWhere;
+			sourceTree = "<group>";
+		};
+		DE95DAF02A864ED200691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAF72A86505A00691C6B /* TryContainsWhereView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE95DAF12A864ED900691C6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAF52A864F6300691C6B /* TryContainsWhereViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE95DAF22A864F1200691C6B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAF32A864F2700691C6B /* InvalidSelectionError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -781,11 +822,13 @@
 				DE95DADC2A852E6600691C6B /* TryAllSatisfyView.swift in Sources */,
 				DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */,
 				DE95DA922A82270600691C6B /* JustView.swift in Sources */,
+				DE95DAF62A864F6300691C6B /* TryContainsWhereViewModel.swift in Sources */,
 				DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */,
 				DE95DAEC2A864CDF00691C6B /* Fruit.swift in Sources */,
 				DED0BAA62A813498000F9149 /* Future_ImmediateView.swift in Sources */,
 				DE95DADA2A852C8000691C6B /* InvalidNumberError.swift in Sources */,
 				DE95DAD72A852C3800691C6B /* TryAllSatisfyViewModel.swift in Sources */,
+				DE95DAF82A86505A00691C6B /* TryContainsWhereView.swift in Sources */,
 				DE95DA992A822A6500691C6B /* PassthroughSubjectView.swift in Sources */,
 				DD59F9412A7851920047E2CE /* CancellingMulitPipeView.swift in Sources */,
 				DE95DAEE2A864DD500691C6B /* ContainsWhereView.swift in Sources */,
@@ -819,6 +862,7 @@
 				DE95DAA22A837A4B00691C6B /* SequnceView.swift in Sources */,
 				DE95DA972A82290300691C6B /* PassthroughSubjectViewModel.swift in Sources */,
 				DE95DAB82A83A3F800691C6B /* DataTaskPublisherView.swift in Sources */,
+				DE95DAF42A864F2700691C6B /* InvalidSelectionError.swift in Sources */,
 				DE95DAD02A8517AD00691C6B /* AllSatisfyViewModel.swift in Sources */,
 				DD59F9292A7578A80047E2CE /* DescView.swift in Sources */,
 				DE95DA892A8221DB00691C6B /* Future_RunMultipleTimesViewModel.swift in Sources */,
