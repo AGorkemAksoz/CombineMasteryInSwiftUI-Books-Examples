@@ -53,6 +53,9 @@
 		DE95DAF42A864F2700691C6B /* InvalidSelectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAF32A864F2700691C6B /* InvalidSelectionError.swift */; };
 		DE95DAF62A864F6300691C6B /* TryContainsWhereViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAF52A864F6300691C6B /* TryContainsWhereViewModel.swift */; };
 		DE95DAF82A86505A00691C6B /* TryContainsWhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAF72A86505A00691C6B /* TryContainsWhereView.swift */; };
+		DE95DAFD2A86714A00691C6B /* CountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAFC2A86714A00691C6B /* CountViewModel.swift */; };
+		DE95DAFF2A8671FF00691C6B /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAFE2A8671FF00691C6B /* CountView.swift */; };
+		DE95DB022A8672C100691C6B /* CountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB012A8672C100691C6B /* CountDetailView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -115,6 +118,9 @@
 		DE95DAF32A864F2700691C6B /* InvalidSelectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidSelectionError.swift; sourceTree = "<group>"; };
 		DE95DAF52A864F6300691C6B /* TryContainsWhereViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryContainsWhereViewModel.swift; sourceTree = "<group>"; };
 		DE95DAF72A86505A00691C6B /* TryContainsWhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryContainsWhereView.swift; sourceTree = "<group>"; };
+		DE95DAFC2A86714A00691C6B /* CountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewModel.swift; sourceTree = "<group>"; };
+		DE95DAFE2A8671FF00691C6B /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
+		DE95DB012A8672C100691C6B /* CountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDetailView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -159,6 +165,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DAF92A86712F00691C6B /* Count */,
 				DE95DAEF2A864EBE00691C6B /* TryContainsWhere */,
 				DE95DAE42A864C4300691C6B /* ContainsWhere */,
 				DE95DADD2A86150100691C6B /* Contains */,
@@ -650,6 +657,32 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		DE95DAF92A86712F00691C6B /* Count */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAFB2A86713A00691C6B /* ViewModel */,
+				DE95DAFA2A86713800691C6B /* View */,
+			);
+			path = Count;
+			sourceTree = "<group>";
+		};
+		DE95DAFA2A86713800691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAFE2A8671FF00691C6B /* CountView.swift */,
+				DE95DB012A8672C100691C6B /* CountDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE95DAFB2A86713A00691C6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAFC2A86714A00691C6B /* CountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -823,7 +856,9 @@
 				DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */,
 				DE95DA922A82270600691C6B /* JustView.swift in Sources */,
 				DE95DAF62A864F6300691C6B /* TryContainsWhereViewModel.swift in Sources */,
+				DE95DAFF2A8671FF00691C6B /* CountView.swift in Sources */,
 				DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */,
+				DE95DB022A8672C100691C6B /* CountDetailView.swift in Sources */,
 				DE95DAEC2A864CDF00691C6B /* Fruit.swift in Sources */,
 				DED0BAA62A813498000F9149 /* Future_ImmediateView.swift in Sources */,
 				DE95DADA2A852C8000691C6B /* InvalidNumberError.swift in Sources */,
@@ -834,6 +869,7 @@
 				DE95DAEE2A864DD500691C6B /* ContainsWhereView.swift in Sources */,
 				DE95DAAE2A8382A300691C6B /* TimerConnectView.swift in Sources */,
 				DD59F9272A7577C70047E2CE /* HeaderView.swift in Sources */,
+				DE95DAFD2A86714A00691C6B /* CountViewModel.swift in Sources */,
 				DE95DAAC2A8381C600691C6B /* TimerConnectViewModel.swift in Sources */,
 				DE95DAA72A837BD400691C6B /* TimerViewModel.swift in Sources */,
 				DD59F93F2A7850140047E2CE /* CancellingMulitPipeViewModel.swift in Sources */,
