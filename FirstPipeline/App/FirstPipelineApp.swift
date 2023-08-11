@@ -29,7 +29,8 @@ struct FirstPipelineApp: App {
 //            DataTaskPublisherImgView()
 //            AllSatisfyView()
 //            TryAllSatisfyView()
-            ContainsView()
+//            ContainsView()
+            ContainsWhereView()
         }
     }
 }
