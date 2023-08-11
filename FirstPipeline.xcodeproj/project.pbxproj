@@ -45,6 +45,8 @@
 		DE95DAD72A852C3800691C6B /* TryAllSatisfyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAD62A852C3800691C6B /* TryAllSatisfyViewModel.swift */; };
 		DE95DADA2A852C8000691C6B /* InvalidNumberError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAD92A852C8000691C6B /* InvalidNumberError.swift */; };
 		DE95DADC2A852E6600691C6B /* TryAllSatisfyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DADB2A852E6600691C6B /* TryAllSatisfyView.swift */; };
+		DE95DAE12A86152100691C6B /* ContainsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAE02A86152100691C6B /* ContainsViewModel.swift */; };
+		DE95DAE32A86164100691C6B /* ContainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DAE22A86164100691C6B /* ContainsView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -99,6 +101,8 @@
 		DE95DAD62A852C3800691C6B /* TryAllSatisfyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyViewModel.swift; sourceTree = "<group>"; };
 		DE95DAD92A852C8000691C6B /* InvalidNumberError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidNumberError.swift; sourceTree = "<group>"; };
 		DE95DADB2A852E6600691C6B /* TryAllSatisfyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfyView.swift; sourceTree = "<group>"; };
+		DE95DAE02A86152100691C6B /* ContainsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsViewModel.swift; sourceTree = "<group>"; };
+		DE95DAE22A86164100691C6B /* ContainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DADD2A86150100691C6B /* Contains */,
 				DE95DAD32A852BAE00691C6B /* TryAllSatisfy */,
 				DE95DACC2A85177600691C6B /* AllSatisfy */,
 				DE95DABB2A83CE5200691C6B /* DataTaskPublisherImg */,
@@ -538,6 +543,31 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		DE95DADD2A86150100691C6B /* Contains */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DADF2A86150B00691C6B /* View */,
+				DE95DADE2A86150800691C6B /* ViewModel */,
+			);
+			path = Contains;
+			sourceTree = "<group>";
+		};
+		DE95DADE2A86150800691C6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAE02A86152100691C6B /* ContainsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE95DADF2A86150B00691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DAE22A86164100691C6B /* ContainsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -724,8 +754,10 @@
 				DD59F92B2A75796B0047E2CE /* FirstPipelineViewModel.swift in Sources */,
 				DED0BAAB2A8220AD000F9149 /* Future_OnlyRunsOnceView.swift in Sources */,
 				DE95DAB62A83A32500691C6B /* CatFact.swift in Sources */,
+				DE95DAE32A86164100691C6B /* ContainsView.swift in Sources */,
 				DED0BA972A80E65D000F9149 /* Validators.swift in Sources */,
 				DD59F9502A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift in Sources */,
+				DE95DAE12A86152100691C6B /* ContainsViewModel.swift in Sources */,
 				DD59F94B2A799AC50047E2CE /* Published_IntroductionViewModel.swift in Sources */,
 				DE95DABA2A83CAFB00691C6B /* ErrorForAlert.swift in Sources */,
 				DD59F9362A7845230047E2CE /* LongRunningView.swift in Sources */,

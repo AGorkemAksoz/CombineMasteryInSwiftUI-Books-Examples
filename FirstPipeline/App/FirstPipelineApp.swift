@@ -28,7 +28,8 @@ struct FirstPipelineApp: App {
 //            DataTaskPublisherView()
 //            DataTaskPublisherImgView()
 //            AllSatisfyView()
-            TryAllSatisfyView()
+//            TryAllSatisfyView()
+            ContainsView()
         }
     }
 }
