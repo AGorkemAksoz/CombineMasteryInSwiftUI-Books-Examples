@@ -33,7 +33,8 @@ struct FirstPipelineApp: App {
 //            ContainsWhereView()
 //            TryContainsWhereView()
 //            CountView()
-            MaxView()
+//            MaxView()
+            MaxByView()
         }
     }
 }

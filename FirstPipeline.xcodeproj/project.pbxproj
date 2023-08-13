@@ -22,6 +22,9 @@
 		DD59F94B2A799AC50047E2CE /* Published_IntroductionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59F94A2A799AC50047E2CE /* Published_IntroductionViewModel.swift */; };
 		DD59F9502A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59F94F2A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift */; };
 		DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59F9512A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift */; };
+		DD96A1362A8901CB00CF71DF /* MaxByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96A1352A8901CB00CF71DF /* MaxByViewModel.swift */; };
+		DD96A1392A8901E800CF71DF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96A1382A8901E800CF71DF /* Profile.swift */; };
+		DD96A13B2A89037600CF71DF /* MaxByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96A13A2A89037600CF71DF /* MaxByView.swift */; };
 		DE95DA892A8221DB00691C6B /* Future_RunMultipleTimesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DA882A8221DB00691C6B /* Future_RunMultipleTimesViewModel.swift */; };
 		DE95DA8B2A82229900691C6B /* Future_RunMultipleTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DA8A2A82229900691C6B /* Future_RunMultipleTimesView.swift */; };
 		DE95DA902A8224EF00691C6B /* JustViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DA8F2A8224EF00691C6B /* JustViewModel.swift */; };
@@ -89,6 +92,9 @@
 		DD59F94A2A799AC50047E2CE /* Published_IntroductionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Published_IntroductionViewModel.swift; sourceTree = "<group>"; };
 		DD59F94F2A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject_IntroViewModel.swift; sourceTree = "<group>"; };
 		DD59F9512A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject_IntroView.swift; sourceTree = "<group>"; };
+		DD96A1352A8901CB00CF71DF /* MaxByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByViewModel.swift; sourceTree = "<group>"; };
+		DD96A1382A8901E800CF71DF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		DD96A13A2A89037600CF71DF /* MaxByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxByView.swift; sourceTree = "<group>"; };
 		DE95DA882A8221DB00691C6B /* Future_RunMultipleTimesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_RunMultipleTimesViewModel.swift; sourceTree = "<group>"; };
 		DE95DA8A2A82229900691C6B /* Future_RunMultipleTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_RunMultipleTimesView.swift; sourceTree = "<group>"; };
 		DE95DA8F2A8224EF00691C6B /* JustViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustViewModel.swift; sourceTree = "<group>"; };
@@ -169,6 +175,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DD96A1322A8901B000CF71DF /* MaxBy */,
 				DE95DB032A8680E000691C6B /* Max */,
 				DE95DAF92A86712F00691C6B /* Count */,
 				DE95DAEF2A864EBE00691C6B /* TryContainsWhere */,
@@ -346,6 +353,40 @@
 				DD59F94F2A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD96A1322A8901B000CF71DF /* MaxBy */ = {
+			isa = PBXGroup;
+			children = (
+				DD96A1372A8901DB00CF71DF /* Model */,
+				DD96A1342A8901B700CF71DF /* ViewModel */,
+				DD96A1332A8901B500CF71DF /* View */,
+			);
+			path = MaxBy;
+			sourceTree = "<group>";
+		};
+		DD96A1332A8901B500CF71DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD96A13A2A89037600CF71DF /* MaxByView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD96A1342A8901B700CF71DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD96A1352A8901CB00CF71DF /* MaxByViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD96A1372A8901DB00CF71DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD96A1382A8901E800CF71DF /* Profile.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DE95DA8C2A8224D300691C6B /* Just */ = {
@@ -882,6 +923,7 @@
 				DED0BA992A80E6D7000F9149 /* FailViewModel.swift in Sources */,
 				DD59F93A2A78453D0047E2CE /* LongRunnningViewModel.swift in Sources */,
 				DE95DAB32A83A2F300691C6B /* DataTaskPublisherViewModel.swift in Sources */,
+				DD96A1362A8901CB00CF71DF /* MaxByViewModel.swift in Sources */,
 				DE95DADC2A852E6600691C6B /* TryAllSatisfyView.swift in Sources */,
 				DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */,
 				DE95DA922A82270600691C6B /* JustView.swift in Sources */,
@@ -911,6 +953,7 @@
 				DED0BA972A80E65D000F9149 /* Validators.swift in Sources */,
 				DD59F9502A79A2780047E2CE /* CurrentValueSubject_IntroViewModel.swift in Sources */,
 				DE95DAE12A86152100691C6B /* ContainsViewModel.swift in Sources */,
+				DD96A13B2A89037600CF71DF /* MaxByView.swift in Sources */,
 				DD59F94B2A799AC50047E2CE /* Published_IntroductionViewModel.swift in Sources */,
 				DE95DABA2A83CAFB00691C6B /* ErrorForAlert.swift in Sources */,
 				DE95DAE92A864C6C00691C6B /* ContainsWhereViewModel.swift in Sources */,
@@ -925,6 +968,7 @@
 				DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */,
 				DE95DAC12A83D03700691C6B /* DataTaskPublisherImgView.swift in Sources */,
 				DED0BAA22A813286000F9149 /* FutureView.swift in Sources */,
+				DD96A1392A8901E800CF71DF /* Profile.swift in Sources */,
 				DE95DABF2A83CE8400691C6B /* DataTaskPublisherImgViewModel.swift in Sources */,
 				DE95DA902A8224EF00691C6B /* JustViewModel.swift in Sources */,
 				DE95DAA22A837A4B00691C6B /* SequnceView.swift in Sources */,
