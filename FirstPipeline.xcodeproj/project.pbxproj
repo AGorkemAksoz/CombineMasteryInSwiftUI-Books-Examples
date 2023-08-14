@@ -70,6 +70,7 @@
 		DE95DB0E2A8A067800691C6B /* TryMinByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB0D2A8A067800691C6B /* TryMinByViewModel.swift */; };
 		DE95DB132A8A072F00691C6B /* MinByViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB122A8A072F00691C6B /* MinByViewModel.swift */; };
 		DE95DB152A8A07E500691C6B /* MinByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB142A8A07E500691C6B /* MinByView.swift */; };
+		DE95DB172A8A1D1F00691C6B /* TryMinByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB162A8A1D1F00691C6B /* TryMinByView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -149,6 +150,7 @@
 		DE95DB0D2A8A067800691C6B /* TryMinByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMinByViewModel.swift; sourceTree = "<group>"; };
 		DE95DB122A8A072F00691C6B /* MinByViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinByViewModel.swift; sourceTree = "<group>"; };
 		DE95DB142A8A07E500691C6B /* MinByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinByView.swift; sourceTree = "<group>"; };
+		DE95DB162A8A1D1F00691C6B /* TryMinByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryMinByView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -848,6 +850,7 @@
 		DE95DB0B2A8A066900691C6B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DB162A8A1D1F00691C6B /* TryMinByView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1068,6 +1071,7 @@
 				DE95DB022A8672C100691C6B /* CountDetailView.swift in Sources */,
 				DE95DAEC2A864CDF00691C6B /* Fruit.swift in Sources */,
 				DED0BAA62A813498000F9149 /* Future_ImmediateView.swift in Sources */,
+				DE95DB172A8A1D1F00691C6B /* TryMinByView.swift in Sources */,
 				DE95DADA2A852C8000691C6B /* InvalidNumberError.swift in Sources */,
 				DE95DAD72A852C3800691C6B /* TryAllSatisfyViewModel.swift in Sources */,
 				DE95DAF82A86505A00691C6B /* TryContainsWhereView.swift in Sources */,
