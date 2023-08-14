@@ -36,7 +36,8 @@ struct FirstPipelineApp: App {
 //            MaxView()
 //            MaxByView()
 //            TryMaxByView()
-            MinView()
+//            MinView()
+            MinByView()
         }
     }
 }
