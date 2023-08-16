@@ -40,7 +40,8 @@ struct FirstPipelineApp: App {
 //            MinByView()
 //            TryMinByView()
 //            AppendView()
-            AppendPipelinesView()
+//            AppendPipelinesView()
+            DropUntilOutputFromView()
         }
     }
 }

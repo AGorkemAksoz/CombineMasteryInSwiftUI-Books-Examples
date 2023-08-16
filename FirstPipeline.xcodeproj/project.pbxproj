@@ -75,6 +75,8 @@
 		DE95DB272A8B583800691C6B /* AppendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB262A8B583800691C6B /* AppendView.swift */; };
 		DE95DB292A8B5A9700691C6B /* AppendPipelinesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB282A8B5A9700691C6B /* AppendPipelinesViewModel.swift */; };
 		DE95DB2B2A8B5B6200691C6B /* AppendPipelinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB2A2A8B5B6200691C6B /* AppendPipelinesView.swift */; };
+		DE95DB322A8CBE0400691C6B /* DropUntilOutputFromViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB312A8CBE0400691C6B /* DropUntilOutputFromViewModel.swift */; };
+		DE95DB342A8CBF4200691C6B /* DropUntilOutputFromView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95DB332A8CBF4200691C6B /* DropUntilOutputFromView.swift */; };
 		DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */; };
 		DED0BA8F2A80DF27000F9149 /* EmptyIntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */; };
 		DED0BA952A80E625000F9149 /* InvalidAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0BA942A80E625000F9149 /* InvalidAgeError.swift */; };
@@ -159,6 +161,8 @@
 		DE95DB262A8B583800691C6B /* AppendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendView.swift; sourceTree = "<group>"; };
 		DE95DB282A8B5A9700691C6B /* AppendPipelinesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendPipelinesViewModel.swift; sourceTree = "<group>"; };
 		DE95DB2A2A8B5B6200691C6B /* AppendPipelinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendPipelinesView.swift; sourceTree = "<group>"; };
+		DE95DB312A8CBE0400691C6B /* DropUntilOutputFromViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropUntilOutputFromViewModel.swift; sourceTree = "<group>"; };
+		DE95DB332A8CBF4200691C6B /* DropUntilOutputFromView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropUntilOutputFromView.swift; sourceTree = "<group>"; };
 		DED0BA8B2A80DDE9000F9149 /* EmptyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModel.swift; sourceTree = "<group>"; };
 		DED0BA8E2A80DF27000F9149 /* EmptyIntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyIntroductionView.swift; sourceTree = "<group>"; };
 		DED0BA942A80E625000F9149 /* InvalidAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidAgeError.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 		DD59F9172A75778A0047E2CE /* FirstPipeline */ = {
 			isa = PBXGroup;
 			children = (
+				DE95DB2E2A8CBDC200691C6B /* DropUntilOutputFrom */,
 				DE95DB212A8B579200691C6B /* Append */,
 				DE95DB0A2A8A065D00691C6B /* TryMinBy */,
 				DE95DB0F2A8A070300691C6B /* MinBy */,
@@ -924,6 +929,31 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		DE95DB2E2A8CBDC200691C6B /* DropUntilOutputFrom */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DB302A8CBDE700691C6B /* ViewModel */,
+				DE95DB2F2A8CBDE400691C6B /* View */,
+			);
+			path = DropUntilOutputFrom;
+			sourceTree = "<group>";
+		};
+		DE95DB2F2A8CBDE400691C6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DB332A8CBF4200691C6B /* DropUntilOutputFromView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE95DB302A8CBDE700691C6B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE95DB312A8CBE0400691C6B /* DropUntilOutputFromViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DED0BA882A80DDC6000F9149 /* Empty */ = {
 			isa = PBXGroup;
 			children = (
@@ -1094,12 +1124,14 @@
 				DD59F93A2A78453D0047E2CE /* LongRunnningViewModel.swift in Sources */,
 				DE95DAB32A83A2F300691C6B /* DataTaskPublisherViewModel.swift in Sources */,
 				DD96A14C2A890D1300CF71DF /* MinViewModel.swift in Sources */,
+				DE95DB342A8CBF4200691C6B /* DropUntilOutputFromView.swift in Sources */,
 				DD96A1362A8901CB00CF71DF /* MaxByViewModel.swift in Sources */,
 				DE95DADC2A852E6600691C6B /* TryAllSatisfyView.swift in Sources */,
 				DD96A1402A8905A600CF71DF /* TryMaxByViewModel.swift in Sources */,
 				DED0BA8C2A80DDE9000F9149 /* EmptyViewModel.swift in Sources */,
 				DE95DA922A82270600691C6B /* JustView.swift in Sources */,
 				DE95DB092A8681A300691C6B /* MaxView.swift in Sources */,
+				DE95DB322A8CBE0400691C6B /* DropUntilOutputFromViewModel.swift in Sources */,
 				DE95DAF62A864F6300691C6B /* TryContainsWhereViewModel.swift in Sources */,
 				DE95DAFF2A8671FF00691C6B /* CountView.swift in Sources */,
 				DD59F9522A79A9E10047E2CE /* CurrentValueSubject_IntroView.swift in Sources */,
